@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────
+#  Solo Leveling Discord Bot — Requirements
+# ─────────────────────────────────────────────
+
+# Discord
+discord.py>=2.3.2
+
+# MongoDB Atlas (player data)
+pymongo[srv]>=4.6.1
+dnspython>=2.4.2          # required for mongodb+srv:// URIs
+
+# Environment variables (optional but recommended)
+python-dotenv>=1.0.0
